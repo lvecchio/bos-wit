@@ -1,0 +1,20 @@
+{
+  "paths" : {
+    "gulp": {
+      "main": "gulp",
+      "tasks": "gulp/tasks"
+    },
+    "dist" : {
+      "css" : "dist/css",
+      "fonts": "dist/fonts",
+      "images": "dist/images",
+      "js" : "dist/js" 
+    },
+    "src" : {
+      "fonts": "src/assets/fonts",
+      "images": "src/assets/images",
+      "js": "src/assets/js",
+      "scss": "src/assets/scss/global.scss"
+    }
+  }
+}
