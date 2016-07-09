@@ -1,0 +1,58 @@
+@import "vendor/neat/neat-helpers";
+
+//  SETTINGS
+//  -----------------------------
+//
+//  Table of Contents:
+//
+//   1. Colors
+//   2. Fonts
+//   3. Grid
+//   4. Breakpoints
+//   5. Global
+
+
+// 1. Colors
+// ---------
+
+$color-black: #000;
+$color-white: #FFF;
+$color-dark-gray: #666;
+$color-medium-gray: #cacaca;
+$color-light-gray: #e6e6e6;
+
+
+// 2. Fonts
+// ---------
+$font-family-primary: "Arial", sans-serif;
+$font-family-secondary: ;
+$font-base-size: 16px;
+$font-base-color: $color-dark-gray;
+
+
+// 3. Grid (Bourbon Neat)
+// ---------
+$column: 90px;
+$gutter: 15px;
+$grid-columns: 12;
+$max-width: 1440px;
+$fg-column: $column;
+$fg-gutter: $gutter;
+
+// 4. Breakpoints (Bourbon Neat)
+// ---------
+$breakpoint-large: new-breakpoint(min-width 1200px);
+$breakpoint-medium: new-breakpoint(min-width 848px);
+$breakpoint-small: new-breakpoint(min-width 480px);
+$breakpoint-x-small: new-breakpoint(min-width 360px);
+
+// 5. Global
+// ---------
+$global-body-bg-color: $color-white;
+$global-body-font-color: $color-black;
+$global-font-family: $font-family-primary;
+$global-wrapper-padding: 0px 20px;
+$global-border-radius: 3px; 
+
+
+
