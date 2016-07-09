@@ -8,8 +8,8 @@ var sass = require('gulp-sass');
 var paths = require('../paths.json').paths;
 
 module.exports = function() {
-	console.log(paths.src.scss);
 	return gulp.src(paths.src.scss)
 		.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+		.pipe(gulp.dest(paths.src.css))
 		.pipe(gulp.dest(paths.dist.css))
 }

@@ -17,9 +17,10 @@
 
 $color-black: #000;
 $color-white: #FFF;
-$color-dark-gray: #666;
+$color-dark-gray: #3b444f;
 $color-medium-gray: #cacaca;
 $color-light-gray: #e6e6e6;
+$color-pink: #ff72cf;
 
 
 // 2. Fonts
@@ -35,7 +36,7 @@ $font-base-color: $color-dark-gray;
 $column: 90px;
 $gutter: 15px;
 $grid-columns: 12;
-$max-width: 1440px;
+$max-width: 1000px;
 $fg-column: $column;
 $fg-gutter: $gutter;
 
@@ -48,7 +49,7 @@ $breakpoint-x-small: new-breakpoint(min-width 360px);
 
 // 5. Global
 // ---------
-$global-body-bg-color: $color-white;
+$global-body-bg-color: $color-light-gray;
 $global-body-font-color: $color-black;
 $global-font-family: $font-family-primary;
 $global-wrapper-padding: 0px 20px;
