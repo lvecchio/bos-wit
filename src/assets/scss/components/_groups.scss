@@ -1,7 +1,26 @@
 .groups {
 	background-color: $color-light-gray;
-	
-	img {
-		width: 50px;
+	padding: 20px;
+
+	h3 {
+		text-align: center;
+		color: $color-white;
+		text-transform: uppercase;
+		border-bottom: 1px solid $color-medium-gray;
+		font-size: 20px;
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+	}
+
+	.group-images {
+		@include span-columns(12);
+
+		img {
+			@include span-columns(3 of 12);
+			@include omega(4n);
+			margin-bottom: 20px;
+			background-color: #fff;
+		}
+
 	}
 }
